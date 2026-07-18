@@ -1,7 +1,7 @@
 
 sigfm_sources = ['sigfm.cpp']
 
-opencv = dependency('opencv4', required: true)
+opencv = dependency('opencv5', required: true)
 doctest = dependency('doctest', required: true)
 
 libsigfm = static_library('sigfm',
